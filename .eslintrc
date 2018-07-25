@@ -9,8 +9,7 @@
 	},
 	"globals": {
 		"React": true,
-		"PropTypes": true,
-		"__DEV__": true
+		"PropTypes": true
 	},
 	"rules": {
 		"object-curly-spacing": 0,
@@ -25,9 +24,17 @@
 		"no-tabs": "off",
 		"indent": ["warn", "tab", {"SwitchCase": 1}],
 		"quote-props": [2, "consistent", {"keywords": false, "unnecessary": true, "numbers": false }],
+		"no-extra-boolean-cast": "off",
 
 		"react/jsx-filename-extension": "off",
 		"react/jsx-indent": ["warn", "tab"],
-		"react/prefer-stateless-function": "off"
+		"react/prefer-stateless-function": "off",
+		"react/jsx-one-expression-per-line": "off",
+		"react/jsx-indent-props": "tab",
+		"react/forbid-prop-types": "off",
+		"jsx-a11y/label-has-for": "off",
+		"react/no-array-index-key": "warn",
+		"react/sort-comp": "off",
+		"react/jsx-no-undef": ["error", {"allowGlobals": true}]
 	}
 }

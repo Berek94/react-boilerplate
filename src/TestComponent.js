@@ -1,4 +1,4 @@
-import styles from 'src/app.css';
+import styles from 'src/TestComponent.css';
 
 export default function TestComponent() {
 	return (
